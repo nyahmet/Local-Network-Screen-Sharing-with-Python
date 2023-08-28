@@ -42,8 +42,8 @@ This is a simple screen sharing application built using Flask, OpenCV, and tkint
 - Defines a function 'get_ip_address()' to determine the local IP address.
 - Defines a function 'create_gui()' to create the tkinter GUI with "Start" and "Stop" buttons and IP address display.
 - Defines routes using Flask decorators:
- * '/video_feed' route streams frames in a multipart format.
- * '/ route renders' an HTML template (not included in the code snippet).
+  '/video_feed' route streams frames in a multipart format.
+  '/ route renders' an HTML template (not included in the code snippet).
 - Launches the Flask app using a new thread, starts with streaming set to 'False'.
 - Calls 'create_gui()' to start the GUI.
 
